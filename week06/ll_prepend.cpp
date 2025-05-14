@@ -42,6 +42,7 @@ void printList(Node *head)
 
 int main()
 {
+    // Node *head; // ❌ Points to garbage value
     Node *head = nullptr;
     prepend(head, 4);
     prepend(head, 8);
